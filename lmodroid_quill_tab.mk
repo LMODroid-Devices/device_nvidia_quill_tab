@@ -15,11 +15,11 @@
 #
 
 # Inherit some common lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_tablet_wifionly.mk)
+$(call inherit-product, vendor/lmodroid/config/common_full_tablet_wifionly.mk)
 
 # Inherit device configuration for quill_tab.
 include device/nvidia/quill/lineage.mk
 $(call inherit-product, device/nvidia/quill_tab/full_quill_tab.mk)
 
-PRODUCT_NAME := lineage_quill_tab
+PRODUCT_NAME := lmodroid_quill_tab
 PRODUCT_DEVICE := quill_tab
